@@ -7,7 +7,7 @@ body {
 }
 
 .grid {
-    border: 2px solid #ef5b5b;
+    border: 1px solid #3a4ddf;
     border-radius: 1rem;
     width: 45rem;
     height: 45rem;
@@ -24,5 +24,5 @@ body {
 }
 
 .block.active {
-    background-color: var(--color-blue);
+    background-color: rgb(123, 244, 255);
   }

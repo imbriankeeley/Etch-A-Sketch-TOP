@@ -1,4 +1,5 @@
 const grid = document.querySelector('.grid');
+
 makeGrid(8)
 
 function makeGrid(size){
@@ -17,3 +18,9 @@ function createBlock(size){
 
     return block;
 }
+
+grid.addEventListener('mouseover', function(event) {
+    if (event.target.classList.contains('block')) {
+        event.target.classList.add('active');
+    }
+  });
