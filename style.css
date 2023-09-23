@@ -1,4 +1,28 @@
 body {
-    background: bisque;
-    
+    background: rgb(255, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+.grid {
+    border: 2px solid #ef5b5b;
+    border-radius: 1rem;
+    width: 45rem;
+    height: 45rem;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.block {
+    border: 0.5px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.block.active {
+    background-color: var(--color-blue);
+  }
