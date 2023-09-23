@@ -6,6 +6,21 @@ body {
     height: 100vh;
 }
 
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.set-grid {
+    height: 50px;
+    width: 70px;
+    border: 1px solid #3a4ddf;
+    border-radius: 1rem;
+    background-color: rgb(255, 230, 230);
+}
+
 .grid {
     border: 1px solid #3a4ddf;
     border-radius: 1rem;
