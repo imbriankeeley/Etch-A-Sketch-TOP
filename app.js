@@ -22,12 +22,12 @@ function createBlock(size){
 }
 
 grid.addEventListener('mouseover', function(event) {
-    if (event.target.classList.contains('block')) {
-        event.target.classList.add('active');
-    }
-  });
+        if (event.target.classList.contains('block')) {
+            event.target.classList.add('active');
+        }});
 
 button.addEventListener('click', function() {
+
     gridSize = prompt('Select a grid size!\nExample: 4 for 4x4');
     
     reset();
